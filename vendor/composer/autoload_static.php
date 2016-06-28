@@ -23,6 +23,11 @@ class ComposerStaticInit541823db0a79109298631292746b3575
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'i' => 
+        array (
+            'igaster\\laravelTheme\\Tests\\' => 27,
+            'igaster\\laravelTheme\\' => 21,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -94,6 +99,14 @@ class ComposerStaticInit541823db0a79109298631292746b3575
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'igaster\\laravelTheme\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/igaster/laravel-theme/tests',
+        ),
+        'igaster\\laravelTheme\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/igaster/laravel-theme/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -271,9 +284,12 @@ class ComposerStaticInit541823db0a79109298631292746b3575
         'App\\Http\\Controllers\\Auth\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/AuthController.php',
         'App\\Http\\Controllers\\Auth\\PasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/PasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\PhotoController' => __DIR__ . '/../..' . '/app/Http/Controllers/PhotoController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
+        'App\\Http\\Middleware\\OldMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/OldMiddleware.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\Request' => __DIR__ . '/../..' . '/app/Http/Requests/Request.php',
@@ -2895,6 +2911,22 @@ class ComposerStaticInit541823db0a79109298631292746b3575
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'igaster\\laravelTheme\\Assets\\Asset' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Assets/Asset.php',
+        'igaster\\laravelTheme\\Assets\\Assets' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Assets/Assets.php',
+        'igaster\\laravelTheme\\Assets\\abastractAsset' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Assets/abastractAsset.php',
+        'igaster\\laravelTheme\\Assets\\css' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Assets/css.php',
+        'igaster\\laravelTheme\\Assets\\img' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Assets/img.php',
+        'igaster\\laravelTheme\\Assets\\js' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Assets/js.php',
+        'igaster\\laravelTheme\\Facades\\Theme' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Facades/Theme.php',
+        'igaster\\laravelTheme\\Middleware\\setTheme' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Middleware/setTheme.php',
+        'igaster\\laravelTheme\\Tests\\App\\TestModel' => __DIR__ . '/..' . '/igaster/laravel-theme/tests/App/TestModel.php',
+        'igaster\\laravelTheme\\Tests\\TestCase\\TestCaseWithDatbase' => __DIR__ . '/..' . '/igaster/laravel-theme/tests/TestCase/TestCaseWithDatbase.php',
+        'igaster\\laravelTheme\\Theme' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Theme.php',
+        'igaster\\laravelTheme\\Themes' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Themes.php',
+        'igaster\\laravelTheme\\Tree\\Item' => __DIR__ . '/..' . '/igaster/laravel-theme/src/Tree/Item.php',
+        'igaster\\laravelTheme\\themeException' => __DIR__ . '/..' . '/igaster/laravel-theme/src/themeException.php',
+        'igaster\\laravelTheme\\themeServiceProvider' => __DIR__ . '/..' . '/igaster/laravel-theme/src/themeServiceProvider.php',
+        'igaster\\laravelTheme\\themeViewFinder' => __DIR__ . '/..' . '/igaster/laravel-theme/src/themeViewFinder.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',

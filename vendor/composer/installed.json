@@ -3251,5 +3251,63 @@
         ],
         "description": "Symfony DomCrawler Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "igaster/laravel-theme",
+        "version": "v1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/igaster/laravel-theme.git",
+            "reference": "d1b504b80e45a9fb40dffa1ae3d34ea364691da1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/igaster/laravel-theme/zipball/d1b504b80e45a9fb40dffa1ae3d34ea364691da1",
+            "reference": "d1b504b80e45a9fb40dffa1ae3d34ea364691da1",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": ">=5.2.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "illuminate/database": "~5.2",
+            "orchestra/testbench": "~3.0",
+            "phpunit/phpunit": "~4.0",
+            "vlucas/phpdotenv": "~2.0"
+        },
+        "suggest": {
+            "orchestra/asset": "Use '@css' and '@js' in Blade files"
+        },
+        "time": "2016-06-04 07:19:01",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "igaster\\laravelTheme\\": "src/",
+                "igaster\\laravelTheme\\Tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Giannis Gasteratos",
+                "email": "igasteratos@gmail.com"
+            }
+        ],
+        "description": "Laravel 5 Themes: Asset & Views folder per theme. Theme inheritance. Blade integration and more...",
+        "homepage": "https://github.com/igaster/laravel-theme",
+        "keywords": [
+            "assets",
+            "blade",
+            "laravel-5",
+            "package",
+            "themes",
+            "views"
+        ]
     }
 ]
