@@ -37,7 +37,7 @@ return [
 	|--------------------------------------------------------------------------
 	*/
 
-	'active' => 'default',
+	'active' => 'bethube',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -55,9 +55,9 @@ return [
 	|--------------------------------------------------------------------------
 	*/
 
-	'bethube' => [
+	'themes' => [
 
-		'default' => [
+		'bethube' => [
 			'extends'	 	=> null,
 			'views-path' 	=> 'resources/theme/bethube/views',
 			'asset-path' 	=> 'public/theme/bethube/assets',

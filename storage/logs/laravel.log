@@ -514,3 +514,81 @@ Stack trace:
 #11 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #12 /home/vagrant/laravel/trunk/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #13 {main}  
+[2016-06-28 08:49:59] local.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php:48
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php(48): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home/vagrant/l...', 48, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(554): igaster\laravelTheme\themeServiceProvider->register()
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(74): Illuminate\Foundation\Application->register(Object(igaster\laravelTheme\themeServiceProvider))
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#6 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#7 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#10 {main}  
+[2016-06-28 08:50:01] local.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php:48
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php(48): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home/vagrant/l...', 48, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(554): igaster\laravelTheme\themeServiceProvider->register()
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(74): Illuminate\Foundation\Application->register(Object(igaster\laravelTheme\themeServiceProvider))
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#6 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#7 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#10 {main}  
+[2016-06-28 08:50:29] local.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php:48
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php(48): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home/vagrant/l...', 48, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(554): igaster\laravelTheme\themeServiceProvider->register()
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(74): Illuminate\Foundation\Application->register(Object(igaster\laravelTheme\themeServiceProvider))
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#6 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#7 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#10 {main}  
+[2016-06-28 08:59:26] local.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php:48
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php(48): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home/vagrant/l...', 48, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(554): igaster\laravelTheme\themeServiceProvider->register()
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(74): Illuminate\Foundation\Application->register(Object(igaster\laravelTheme\themeServiceProvider))
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#6 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#7 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#10 {main}  
+[2016-06-28 08:59:27] local.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php:48
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php(48): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home/vagrant/l...', 48, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(554): igaster\laravelTheme\themeServiceProvider->register()
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(74): Illuminate\Foundation\Application->register(Object(igaster\laravelTheme\themeServiceProvider))
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#6 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#7 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#10 {main}  
+[2016-06-28 08:59:28] local.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php:48
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/igaster/laravel-theme/src/themeServiceProvider.php(48): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Invalid argumen...', '/home/vagrant/l...', 48, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(554): igaster\laravelTheme\themeServiceProvider->register()
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(74): Illuminate\Foundation\Application->register(Object(igaster\laravelTheme\themeServiceProvider))
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#6 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(232): Illuminate\Foundation\Application->bootstrapWith(Array)
+#7 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(127): Illuminate\Foundation\Http\Kernel->bootstrap()
+#8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#10 {main}  
