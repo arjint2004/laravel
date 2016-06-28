@@ -55,12 +55,12 @@ return [
 	|--------------------------------------------------------------------------
 	*/
 
-	'themes' => [
+	'bethube' => [
 
 		'default' => [
 			'extends'	 	=> null,
-			'views-path' 	=> '',
-			'asset-path' 	=> '',
+			'views-path' 	=> 'resources/theme/bethube/views',
+			'asset-path' 	=> 'public/theme/bethube/assets',
 		],
 
 		// Add your themes here...
