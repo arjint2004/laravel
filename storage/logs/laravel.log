@@ -592,3 +592,37 @@ Stack trace:
 #8 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #9 /home/vagrant/laravel/trunk/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #10 {main}  
+[2016-06-29 05:50:18] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "make:conntroller" is not defined.
+
+Did you mean one of these?
+    make:controller
+    make:console
+    make:request
+    make:seeder
+    make:provider
+    make:migration
+    make:policy
+    make:test
+    make:middleware
+    make:event
+    make:job
+    make:listener
+    make:auth
+    make:model' in /home/vagrant/laravel/trunk/vendor/symfony/console/Application.php:512
+Stack trace:
+#0 /home/vagrant/laravel/trunk/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('make:conntrolle...')
+#1 /home/vagrant/laravel/trunk/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/vagrant/laravel/trunk/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2016-06-29 05:52:39] local.ERROR: exception 'ErrorException' with message 'file_put_contents(/home/vagrant/laravel/trunk/storage/framework/sessions/8f55dbb2134fae785f1cd873121d456ca1ef3a26): failed to open stream: Permission denied' in /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/l...', 109, Array)
+#1 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/vagrant/l...', 'a:5:{s:6:"_toke...', 2)
+#2 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\Filesystem\Filesystem->put('/home/vagrant/l...', 'a:5:{s:6:"_toke...', true)
+#3 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Session/Store.php(262): Illuminate\Session\FileSessionHandler->write('8f55dbb2134fae7...', 'a:5:{s:6:"_toke...')
+#4 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(88): Illuminate\Session\Store->save()
+#5 /home/vagrant/laravel/trunk/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(155): Illuminate\Session\Middleware\StartSession->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#6 /home/vagrant/laravel/trunk/public/index.php(58): Illuminate\Foundation\Http\Kernel->terminate(Object(Illuminate\Http\Request), Object(Illuminate\Http\Response))
+#7 /home/vagrant/laravel/trunk/index.php(21): require_once('/home/vagrant/l...')
+#8 {main}  

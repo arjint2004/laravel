@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/wawan', 'WawanController@index');
 
 Route::resource('photo', 'PhotoController');
 
